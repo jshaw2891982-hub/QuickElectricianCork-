@@ -1,0 +1,30 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5f4ef;color:#151515}
+a{text-decoration:none;color:inherit}
+header{height:82px;padding:0 6%;display:flex;align-items:center;justify-content:space-between;background:#111;color:white}
+.brand{font-weight:800;font-size:20px}
+.call,.primary{background:#ffd400;color:#111;padding:15px 22px;border-radius:5px;font-weight:800}
+.hero{min-height:620px;background:#111;color:white;padding:90px 8%;display:grid;grid-template-columns:2fr 1fr;gap:70px;align-items:center}
+.tag{font-size:12px;font-weight:900;letter-spacing:2px;color:#ffd400}
+.tag.dark{color:#555}
+h1{font-size:64px;line-height:1.02;margin:18px 0}
+h1 em{color:#ffd400;font-style:normal}
+.hero p{font-size:20px;line-height:1.6;max-width:700px;color:#ccc}
+.actions{display:flex;gap:14px;margin-top:35px;flex-wrap:wrap}
+.secondary{border:1px solid #777;padding:15px 22px;border-radius:5px;font-weight:700}
+.hero aside{border-left:4px solid #ffd400;padding:30px;display:flex;flex-direction:column;gap:12px;background:#1c1c1c}
+.hero aside strong{font-size:25px}
+.hero aside a{font-size:25px;color:#ffd400;font-weight:900}
+.services{padding:90px 8%}
+.services h2,.coverage h2,.contact h2{font-size:42px;margin:15px 0 35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid article{background:white;padding:25px;min-height:125px;border-top:4px solid #ffd400}
+.grid article b{font-size:12px;color:#888}
+.grid h3{font-size:18px;margin-top:20px}
+.coverage{background:#ffd400;padding:80px 8%}
+.coverage .tag{color:#111}
+.coverage p{font-size:19px}
+.coverage a{display:inline-block;margin-top:15px;font-size:30px;font-weight:900}
+.contact{padding:90px 8%;display:grid;grid-template-columns:1fr 1fr;gap:70px;background:white}
+.contact p{line-height:1.
